@@ -7,6 +7,13 @@
   <title>Document</title>
 </head>
 <body>
-  
-<script type="text/javascript" src="./js/manifest.b3e9.js"></script><script type="text/javascript" src="./js/vendor.3e82.js"></script><script type="text/javascript" src="./js/app.30f3.js"></script></body>
+  <div id="counter"></div>
+  <script>
+    const counter = document.querySelector('#counter')
+    let timer = 0
+    setInterval(() => {
+      counter.innerHTML = timer++
+    }, 500)
+  </script>
+</body>
 </html>
