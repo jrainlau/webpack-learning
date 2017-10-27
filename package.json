@@ -13,18 +13,18 @@
     "build:7": "node_modules/.bin/webpack --config ./7-common-chunk/webpack.config.js",
     "build:8": "node_modules/.bin/webpack --config ./8-custom-library/webpack.config.js",
     "build:9": "node_modules/.bin/webpack --config ./9-multi-pages/webpack.config.js",
-    "build:10": "node_modules/.bin/webpack-dev-server --config ./10-dev-server/webpack.config.js",
+    "dev:10": "node_modules/.bin/webpack-dev-server --config ./10-dev-server/webpack.config.js",
     "build:11": "node_modules/.bin/webpack --config ./11-tree-shaking/webpack.config.js",
     "build:12": "node ./12-node-api/build.js",
     "dev:12": "node ./12-node-api/dev.js"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/jrainlau/webpack-learning.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jrainlau/webpack-learning/issues"
   },
