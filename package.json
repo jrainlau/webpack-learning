@@ -1,0 +1,40 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:1": "node_modules/.bin/webpack --config ./1-basic-sample/webpack.config.js",
+    "build:2": "node_modules/.bin/webpack --config ./2-loaders/webpack.config.js",
+    "build:3": "node_modules/.bin/webpack --config ./3-plugins/webpack.config.js",
+    "build:4": "node_modules/.bin/webpack --config ./4-resolve/webpack.config.js",
+    "build:5": "node_modules/.bin/webpack --config ./5-generate-html/webpack.config.js",
+    "build:6": "node_modules/.bin/webpack --config ./6-extract-style/webpack.config.js",
+    "build:7": "node_modules/.bin/webpack --config ./7-common-chunk/webpack.config.js",
+    "build:8": "node_modules/.bin/webpack --config ./8-custom-library/webpack.config.js",
+    "build:9": "node_modules/.bin/webpack --config ./9-multi-pages/webpack.config.js",
+    "build:10": "node_modules/.bin/webpack-dev-server --config ./10-dev-server/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrainlau/webpack-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrainlau/webpack-learning/issues"
+  },
+  "homepage": "https://github.com/jrainlau/webpack-learning#readme",
+  "dependencies": {
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "loader-utils": "^1.1.0",
+    "style-loader": "^0.19.0",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
