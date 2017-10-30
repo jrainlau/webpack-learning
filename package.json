@@ -18,7 +18,9 @@
     "build:12": "node ./12-node-api/build.js",
     "dev:12": "node ./12-node-api/dev.js",
     "build:13": "node ./13-webpack-merge/webpack/build.js",
-    "dev:13": "node ./13-webpack-merge/webpack/dev.js"
+    "dev:13": "node ./13-webpack-merge/webpack/dev.js",
+    "dll:14": "node_modules/.bin/webpack --config ./14-dll/webpack.dll.config.js",
+    "build:14": "node_modules/.bin/webpack --config ./14-dll/webpack.config.js"
   },
   "repository": {
     "type": "git",
