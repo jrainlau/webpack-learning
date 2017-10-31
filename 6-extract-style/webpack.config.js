@@ -40,6 +40,6 @@ module.exports = {
       filename: (getPath) => {
         return getPath('./css/[name].css').replace('./js/', '')
       }
-    }),
+    })
   ]
 }

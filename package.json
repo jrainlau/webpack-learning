@@ -20,7 +20,9 @@
     "build:13": "node ./13-webpack-merge/webpack/build.js",
     "dev:13": "node ./13-webpack-merge/webpack/dev.js",
     "dll:14": "node_modules/.bin/webpack --config ./14-dll/webpack.dll.config.js",
-    "build:14": "node_modules/.bin/webpack --config ./14-dll/webpack.config.js"
+    "build:14": "node_modules/.bin/webpack --config ./14-dll/webpack.config.js",
+    "dev:15": "node ./15-complete-sample/webpack/dev.js",
+    "build:15": "node ./15-complete-sample/webpack/build.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,10 @@
     "webpack": "^3.8.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
