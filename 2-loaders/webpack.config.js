@@ -14,13 +14,13 @@ module.exports = {
     rules: [{
       test: /\.md$/,
       use: [{
+        loader: 'human-loader'
+      }, {
         loader: 'replace-loader',
         options: {
           origin: 'Hello',
           target: 'Bello'
         }
-      }, {
-        loader: 'human-loader'
       }]
     }]
   }
